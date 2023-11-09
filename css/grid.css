@@ -115,7 +115,7 @@ li{
 .linea1{
     display: flex;
     grid-area: foto1;
-    background-image: url(/img/programmer-1653351_640.png);
+    background-image: url(../img/programmer-1653351_640.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -130,7 +130,7 @@ li{
 .linea2{
     display: flex;
     grid-area: foto2;
-    background-image: url(/img/laptop-8305452_640.jpg);
+    background-image: url(../img/laptop-8305452_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -145,7 +145,7 @@ li{
 .linea3{
     display: flex;
     grid-area: foto3;
-    background-image: url(/img/laptop-1483974_640.jpg);
+    background-image: url(../img/laptop-1483974_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,7 +157,7 @@ li{
 .linea4{
     display: flex;
     grid-area: foto4;
-    background-image: url(/img/imagen20.jpg);
+    background-image: url(../img/imagen20.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -170,7 +170,7 @@ li{
 .linea5{
     display: flex;
     grid-area: foto5;
-    background-image: url(/img/laptop-1205256_640.jpg);
+    background-image: url(../img/laptop-1205256_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -182,7 +182,7 @@ li{
 .linea6{
     display: flex;
     grid-area: foto6;
-    background-image: url(/img/imagen6.jpg); 
+    background-image: url(../img/imagen6.jpg); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -196,7 +196,7 @@ li{
 .linea7{
     display: flex;
     grid-area: foto7;
-    background-image: url(/img/business-2717063_640.jpg);
+    background-image: url(../img/business-2717063_640.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -210,7 +210,7 @@ li{
 .linea8{
     display: flex;
     grid-area: foto8;
-    background-image: url(/img/colores.jpg);
+    background-image: url(../img/colores.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -222,7 +222,7 @@ li{
 .linea9{
     display: flex;
     grid-area: foto9;
-    background-image: url(/img/colores.jpg);
+    background-image: url(../img/colores.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -235,7 +235,7 @@ li{
     display: flex;
     grid-area: foto10;
     background-color: blue;
-    background-image: url(/img/colores.jpg);
+    background-image: url(../img/colores.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -248,7 +248,7 @@ li{
     display: flex;
     grid-area: foto11;
     
-    background-image: url(/img/colores.jpg);
+    background-image: url(../img/colores.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
