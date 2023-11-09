@@ -7,9 +7,10 @@
     align-items: center;
     padding: 10px;
     background-color: rgb(0, 0, 0);
+    
 }
 
-.cabecera , .navbar , .seccion , .seccion2 , .linea1 , .linea2 , .linea3 , .linea4 , .linea5 , .linea6 , .linea7 , .adm-plan, .linea8 , .linea9 , .linea10 , .pie{
+.cabecera , .navbar , .seccion , .seccion2 , .linea1 , .linea2 , .linea3 , .linea4 , .linea5 , .linea6 , .linea7 , .adm-plan, .linea8 , .linea9 , .linea10 , .pie ,.minombre{
     padding: 10px;
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
@@ -25,8 +26,8 @@
     display: grid;
     grid-template-columns: 250px 400px 400px 250px;
     grid-template-rows: 300px 40px 100px 150px 150px 150px 150px 150px 150px 150px ;
-    row-gap: 5px;
-    column-gap: 5px;
+    row-gap: 7px;
+    column-gap: 7px;
     background-color: rgb(255, 255, 255);
     justify-content: center;
     grid-template-areas: 
@@ -63,15 +64,17 @@
     grid-area: navbar;
     grid-column-start: 2;
     grid-column-end: 4;
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none; 
 
 }
 .navbar ul{
     display: flex;
     width: 100%;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
+   
    
    
 
@@ -80,10 +83,8 @@
 }
 
 li{
-    display: flex;
-    color: aliceblue;
-   
-    color: aliceblue;
+    
+    
    
 
 }
@@ -285,38 +286,36 @@ li{
     
     "header header header header"
     "navbar navbar navbar navbar"
-    "minombre minombre texto texto"
-    "foto1 foto1 foto1 foto1"
+    "texto texto texto texto"
+    "foto7 foto7 foto7 foto7"
     "foto2 foto2 foto2 foto2"
     "foto3 foto3 foto3 foto3"
     "foto4 foto4 foto4 foto4"
     "foto5 foto5 foto5 foto5"
     "foto6 foto6 foto6 foto6"
-    "foto7 foto7 foto7 foto7"
-
-     
-
-
-    
-   
-   
+    "foto1 foto1 foto1 foto1"
 
      ;
 
 }
 
-}
 
-@media( max-width: 768px){
+}
+@media( max-width: 440px){
     .navbar label{
         display: block;
         color: blueviolet;
+        
     }
 
     .nave li{
 
         display: none;
+
     }
+}
+@media( max-width: 768px){
+    
 
     .nav_item_grid:hover{
         background-color: blueviolet;
