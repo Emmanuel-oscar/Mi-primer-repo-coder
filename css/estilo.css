@@ -411,7 +411,7 @@ form{
     box-sizing: border-box;
     border: 100%;
     height: 100% vh;
-    background-image: url(/img/imagen13.jpg); 
+    background-image: url(../img/imagen13.jpg); 
     background-position: center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.896);
