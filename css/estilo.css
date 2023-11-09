@@ -1,0 +1,702 @@
+
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+ 
+   
+     
+  @font-face{
+    font-family: "perpeta.ttf";
+    src: url(../font/per_____.ttf);
+}
+   
+   /*TITULO*/
+h1{ color: rgb(10, 10, 10); font-size: 70px; 
+    font-family: 'Cinzel', serif;
+    margin-top: 30px;
+}
+
+
+
+h2{
+    font-size: 'Rubik', sans-serif;
+}
+
+
+   /*menu e navegacion pc*/
+
+nav.navegacion {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.896); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
+ nav.navegacion a{
+    text-decoration: none;
+    color: aliceblue;
+   
+}
+
+
+.navegacion .logo__container{
+    margin: 8;
+    width: 30;
+    display: flex;
+    align-items: end;
+    justify-items: center;
+
+} 
+   
+
+.navegacion__nav{
+    display: flex;
+    list-style: none;
+    align-content: space-between;
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0)
+    
+  
+}
+
+
+.navegacion__nav .nav__item{
+    padding: 5px;    
+    margin-left: 50px;
+    display: flex;
+    font-family:'Rubik', sans-serif;
+    font-size: 16px;
+
+}
+
+.nav__item:hover{
+    background-color: blueviolet;
+}
+
+.nav__item:active{
+    background-color: aqua;
+}
+
+.boton{
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton,.boton_porfolio{
+    border-radius: 5px;
+    background-color: rgb(65, 41, 219);
+    position: relative;
+    top: 10px;
+}
+
+.boton.boton_porfolio:hover{
+    background-color: rgba(0, 255, 255, 0.67);
+}
+
+   /*menu mobil*/
+
+#check_menu ,.navegacion  label{
+    display: none;
+    
+}
+
+
+.navegacion , label i{
+    font-size: 1.8rem;
+
+}
+
+
+   /*portada inicio*/
+h1.portada-ind{
+   color: #ffffffcb; 
+   font-family:'Rubik', sans-serif;
+   position: relative;
+   top: 350px;
+   left: 32%;
+   font-size: 85px;
+   display: flex;
+   align-content: center;
+
+}
+
+
+p,h1{
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+li{
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+strong{
+    font-family: 'Cinzel', serif;
+
+}
+
+
+.portada{
+    margin-top: -300px;
+
+}
+
+
+    /*FOTO portfolio*/
+.fondi-porfoli{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    
+    
+    }
+.porfo{
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+    
+    
+    
+ }  
+ 
+ .galeria2{
+    height:1000px;
+    width: 1000;
+    background-color: black; 
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: center;
+
+   
+    
+}
+ .flett{
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+   
+}
+
+.flett:hover{
+
+    background-color: rgb(43, 226, 46)0, 186);
+    opacity: 0.88;
+}
+ .multi-padre{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    
+}
+
+
+.herra-padre{
+    display: flex;
+    background-color: rgb(254, 255, 255); height: 100px; width: 1520;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    
+}
+
+.herra-mienta{
+    
+    display: flex;
+ 
+}
+
+
+.foto-multimedia{
+    width: 720;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.51);
+
+}
+
+
+.galeria3{
+    width: 720;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+ 
+}
+
+
+.foto-herramienta{
+    width: 1542px;
+    height: 720;
+    display: flex;
+    align-content: center;
+    justify-content: end;
+
+}
+
+
+.enla.final{
+    position: relative;
+    top: 100px;}
+    
+
+video{
+    position: relative;
+    top: px;
+
+}
+
+
+/*cajas de pagina sobre mi */
+
+.box1, .box2, .box3 {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 1000px;
+
+}
+
+
+.box2 {
+    background-color: red;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+
+}
+    
+.box3 {
+    background-color: rgb(59, 20, 198);
+    
+}
+    
+.text-content{
+    background-color: beige;
+    width: 50%;
+    height: 500px;
+    overflow: auto;
+
+}
+
+
+/*Video de potada mis servicios*/
+
+.header__container.content-main{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+}
+
+.content-main{
+    position: relative;
+    top: 700px;
+    
+
+}
+
+
+
+h2.mas.arriba{
+    position: relative;
+    top: 300px;
+
+}
+
+    /*FORMULARIO DE CONTACTO*/
+
+form input{
+    width: 100%;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.788);  
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(43, 125, 226);
+
+}
+
+
+form input::placeholder{
+    color: rgba(44, 111, 228, 0.753);
+}
+
+
+.contacto-formula{
+    position: relative;
+    top: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px ;  
+    font-family:  'Rubik', sans-serif;
+    color: #ffffff;
+    background-color: #040404;
+    height: 130px;
+    
+    
+   
+
+}
+
+     
+form textarea{
+    width: 100%;
+    font-size: 27px;
+    background-color: transparent;
+    border-radius: 20px solid blueviolet;
+    border-bottom: 2px solid blueviolet;
+    
+}
+
+form textarea::placeholder{
+    color: rgba(44, 111, 228, 0.753);
+}
+
+form #enviar{
+   background-color: blueviolet;
+   font-size: 25px;
+   border-radius: 20px;
+   border: 3px solid rgb(44, 111, 228, 0.753);
+
+}
+
+#iframe{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+    
+    
+}
+
+
+form{
+    
+    padding: 30px;
+    box-sizing: border-box;
+    border: 100%;
+    height: 100% vh;
+    background-image: url(/img/imagen13.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.896);
+    
+}
+
+
+.ubi-cacion iframe{
+    
+    position: relative;
+    display: flex;
+    top: 25px;
+    width: 100%;
+    color: #040404;
+}
+
+.content-contacto{
+    position: relative;
+    top: -29px;
+    
+}
+
+   /*Porfolio*/
+
+.header__container video {
+    position: absolute;
+    height: 65%;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.header__container .capa{
+    position: absolute;
+    height:65%;
+    width: 100%;
+    background-color: rgb(120, 21, 212);
+    mix-blend-mode: overlay;
+
+}
+
+
+.servic1{
+    position: absolute;
+    color: aliceblue;
+    background-color: rgba(0, 255, 255, 0.482);
+    top: 50%;
+    margin-left: 5%;
+
+}
+
+
+.servic2{
+    position: absolute;
+    color: aliceblue;
+    background-color: rgba(0, 255, 255, 0.505);
+    top: 40%;
+    margin-left: 5%;
+
+}
+
+
+
+
+/*fin del video*/
+
+.pag-porfolio{
+    position: relative;
+    top: 400px;
+    flex-wrap: wrap;
+    
+}
+
+.porfolio_container{
+    width: 100%;
+    padding: 1rem 4%;
+    height: 40%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    
+}
+
+.porfolio_container,.card:hover img {
+    background-color: aqua;
+    opacity: .85;
+}
+
+.porfolio_container,.card{
+    
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+.porfolio_container,.card img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 300px;
+opacity: 1;
+
+}
+
+
+.card .card_container a.boton{
+    width: 100%;
+    padding: 10px;
+    font-size: .88rem;
+    align-self: flex-end;
+
+}
+
+.porfolio_container,.card_title{
+    font-size: 22px;
+
+
+}
+
+.porfolio_container,.card_title:hover{
+    color: rgb(0, 255, 60);
+}
+.porfolio_container,.card_container{
+    font-size: 18px;
+}
+
+
+/* la classe del navegador de la pagina servicio es distinto, */
+
+
+
+    /*responsive*/
+
+   
+
+
+    
+    @media(max-width:768px) {
+        .navegacion label{
+            display: block;
+            color: blueviolet;
+        }
+
+      
+            .navegacion__nav ,.nave {
+            display: none;
+        }
+
+        .servic1,.servic2{
+            font-size: 40px;
+            
+        }
+
+    }
+  
+
+    
+    @media( max-width: 768px){
+        .navbar label{
+            display: block;
+            color: blueviolet;
+            
+        }
+
+        .nave{
+
+            display: none;
+        }
+
+       
+        
+        
+        .navegacion #check_menu:checked~.navegacion__nav{
+
+            display: block;
+            background: rgba(137, 43, 226, 0.767);
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }     
+            
+        .portada-ind{
+            font-size: 20px;
+            left: 0;
+           
+            
+        }
+        
+        
+        .porfolio_container ,.porfo{
+           position: relative;
+           
+
+        }
+
+
+        .galeria2{
+            left: 0; width: 100%;
+            height: 100%;
+            right: 0;
+
+         
+        
+        }
+        .porfo{
+            position: relative;
+            
+            left: 0; 
+            width: 100%;
+            height: 100%;
+            right: 0;
+        }
+
+        .header__container{
+            left: 0;
+            width: 100%;
+           
+        }
+    }
+  
+    @media( max-width: 430px){
+
+        .header__container{
+            left: 0;
+            width: 100%;
+            font-size: 10px;
+        }
+         
+        .porfolio_container{
+            grid-template-columns: repeat(1, 1fr);
+
+        }    
+    
+        .servic1,.servic2{
+            font-size: 40px;
+            
+        }
+        }     
+            
+     @media(max-width: 1000px){
+             
+            .porfolio_container{
+            background-color: blueviolet;
+
+            position: relative;
+            top: 50px;
+            width: 100%;
+            padding: 1rem 4%;
+            height: 40%;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            flex-wrap: wrap
+
+         }
+        
+        }
+        @media(max-width: 550px){              
+        .porfolio_container{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        }    
+    
+    
+        @media(max-width: 1550px){
+             
+            .porfolio_container{
+            background-color: blueviolet;
+
+            }
+        }
+
+
+    

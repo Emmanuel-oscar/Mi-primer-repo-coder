@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grilla {
+    padding: 1rem;
+    width: 100%;
+    height: 100vh;
+}
+
+.grilla section {
+    height: 50px;
+    border: 2px solid;
+}
+
+div {
+    border: 1px solid;
+    padding: 3px;
+}
+
+section :nth-child(even) {
+    background-color: #1d5bba;
+
+}
+
+section :nth-child(odd) {
+    background-color: #adbfeb;
+}
