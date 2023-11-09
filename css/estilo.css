@@ -594,7 +594,7 @@ opacity: 1;
        
         
         
-        .navegacion  #check_menu:checked~.navegacion__nav li{
+        .navegacion  #check_menu:checked~.navegacion__nav {
 
             display: block;
             background: rgba(137, 43, 226, 0.767);
