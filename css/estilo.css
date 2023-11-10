@@ -483,8 +483,9 @@ form{
 
 .pag-porfolio{
     position: relative;
-    top: 400px;
+    top: 500px;
     flex-wrap: wrap;
+    background-color: blueviolet;
     
 }
 
@@ -496,6 +497,7 @@ form{
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
+    
     
 }
 
