@@ -485,8 +485,7 @@ form{
     position: relative;
     top: 500px;
     flex-wrap: wrap;
-    background-color: blueviolet;
-    
+    box-sizing: content-box;    
 }
 
 .porfolio_container{
@@ -500,7 +499,9 @@ form{
     
     
 }
-
+.porfo{
+    color: #000000;
+}
 .porfolio_container,.card:hover img {
     background-color: aqua;
     opacity: .85;
