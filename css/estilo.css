@@ -277,7 +277,7 @@ video{
 
 /*cajas de pagina sobre mi */
 
-.box1, .box2, .box3 {
+ .box2,  {
     width: 90px;
     height: 90px;
     background-color: green;
@@ -298,16 +298,16 @@ video{
 
 }
     
-.box3 {
-    background-color: rgb(59, 20, 198);
+
     
-}
+
     
 .text-content{
     background-color: beige;
     width: 50%;
     height: 500px;
     overflow: auto;
+    top: -100px;
 
 }
 
