@@ -28,3 +28,15 @@ section :nth-child(even) {
 section :nth-child(odd) {
     background-color: #adbfeb;
 }
+/*carrousel*/
+
+.carousel,.carousel-inner{
+    border: none;
+    
+}   
+
+.carousel-item{
+    
+   
+
+}
