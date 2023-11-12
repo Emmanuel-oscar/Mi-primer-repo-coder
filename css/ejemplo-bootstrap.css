@@ -8,10 +8,11 @@
     padding: 1rem;
     width: 100%;
     height: 100vh;
+    
 }
 
 .grilla section {
-    height: 50px;
+    height: 100px;
     border: 2px solid;
 }
 
@@ -37,6 +38,11 @@ section :nth-child(odd) {
 
 .carousel-item{
     
+  border:none;
    
 
+}
+
+.container{
+    
 }
