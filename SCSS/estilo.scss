@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav.navegacion {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.896); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+
+nav.navegacion a{
+        text-decoration: none;
+        color: aliceblue;
+       
+  
+    }
+
+    nav.navegacion a{
+        text-decoration: none;
+        color: aliceblue;
+       
+    }
+
+    
+    .navegacion .logo__container{
+        margin: 8px;
+        width: 30px;
+        display: flex;
+        align-items: end;
+        justify-items: center;
+    
+    } 
+       
+
+    .navegacion__nav{
+        display: flex;
+        list-style: none;
+        align-content: space-between;
+        width: 50%;
+        
+        background-color: rgba(245, 245, 245, 0)
+    
+      
+    }
+    .navegacion__nav .nav__item{
+        padding: 5px;    
+        margin-left: 50px;
+        display: flex;
+        font-family:'Rubik', sans-serif;
+        font-size: 16px;
+    
+    }
+    
+    .nav__item:hover{
+        background-color: blueviolet;
+    }
+    
+    .nav__item:active{
+        background-color: aqua;
+    }
+    
+    .boton{
+        color: rgb(255, 255, 255);
+        border: none;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .boton,.boton_porfolio{
+        border-radius: 5px;
+        background-color: rgb(65, 41, 219);
+        position: relative;
+        top: 10px;
+    }
+    
+    .boton.boton_porfolio:hover{
+        background-color: rgba(0, 255, 255, 0.67);
+    }
+    
+       /*menu mobil*/
+    
+    #check_menu ,.navegacion  label{
+        display: none;
+        
+    }
+    
+    
+    .navegacion , label i{
+        font-size: 1.8rem;
+    
+    }
+    
+
+
+
+
+}
+
+
+  /*portada inicio*/
+  .portada-ind{
+    color: #ffffffcb; 
+    font-family:'Rubik', sans-serif;
+    position: relative;
+    top: 350px;
+    font-size: 85px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(1,1);
+    grid-template-rows: repeat(1,1);
+  
+ 
+ 
+ 
+ 
+ p,h1{
+     font-family: 'Rubik', sans-serif;
+ 
+ }
+ 
+ 
+ li{
+     font-family: 'Rubik', sans-serif;
+ 
+ }
+ 
+ 
+ strong{
+     font-family: 'Cinzel', serif;
+ 
+ }
+ 
+
+ .portada{
+    display: flex;
+    margin-top: -300px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: grid;
+   } 
+   
+}
+
+   /*FOTO portfolio*/
+   .porfo-inicio{
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    
+    
+    
+
+}
+
+.porfo{
+    font-size: 60px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+
+    
+    
+    
+ }  
