@@ -162,7 +162,7 @@ nav.navegacion a{
    
 }
 
-   /*FOTO portfolio*/
+   /*FOTO portfolio iniico*/
    .porfo-inicio{
     display: flex;
     background-color: #ffffff;
@@ -187,3 +187,17 @@ nav.navegacion a{
     
     
  }  
+
+ .galeria2{
+    height:100%;
+    width: 100vh;
+    background-color: black; 
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: center;
+    
+   
+    
+  }
