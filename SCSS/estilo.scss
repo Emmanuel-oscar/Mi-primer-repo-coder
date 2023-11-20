@@ -20,7 +20,7 @@ nav.navegacion {
     background-color: rgba(0, 0, 0, 0.896); 
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between; }
     
 
 nav.navegacion a{
@@ -30,34 +30,28 @@ nav.navegacion a{
   
     }
 
-    nav.navegacion a{
+nav.navegacion a{
         text-decoration: none;
         color: aliceblue;
        
     }
 
     
-    .navegacion .logo__container{
-        margin: 8px;
-        width: 30px;
-        display: flex;
-        align-items: end;
-        justify-items: center;
     
-    } 
        
 
-    .navegacion__nav{
+.navegacion__nav{
         display: flex;
         list-style: none;
         align-content: space-between;
         width: 50%;
-        
         background-color: rgba(245, 245, 245, 0)
     
       
     }
-    .navegacion__nav .nav__item{
+
+    
+.navegacion__nav .nav__item{
         padding: 5px;    
         margin-left: 50px;
         display: flex;
@@ -82,35 +76,29 @@ nav.navegacion a{
     
     }
     
-    .boton,.boton_porfolio{
-        border-radius: 5px;
-        background-color: rgb(65, 41, 219);
-        position: relative;
-        top: 10px;
-    }
-    
-    .boton.boton_porfolio:hover{
-        background-color: rgba(0, 255, 255, 0.67);
-    }
-    
+   
+   
        /*menu mobil*/
+.navegacion .logo__container{
     
-    #check_menu ,.navegacion  label{
-        display: none;
-        
-    }
-    
-    
-    .navegacion , label i{
-        font-size: 1.8rem;
-    
-    }
-    
+    margin: 8px;
+    width: 30px;
+    display: flex;
+    align-items: end;
+    justify-items: center;
 
-
-
+} 
+.navegacion , label i{
+    font-size: 1.8rem;
 
 }
+
+#check_menu ,.navegacion  label{
+    display: none;
+    
+}
+
+
 
 
   /*portada inicio*/
@@ -127,7 +115,7 @@ nav.navegacion a{
     display: grid;
     grid-template-columns: repeat(1,1);
     grid-template-rows: repeat(1,1);
-  
+  }
  
  
  
@@ -160,7 +148,7 @@ nav.navegacion a{
     display: grid;
    } 
    
-}
+
 
    /*FOTO portfolio iniico*/
    .porfo-inicio{
@@ -236,7 +224,7 @@ nav.navegacion a{
         justify-content: center;
         width: 1520px;
         height: 100px;
-     
+    }
         
         .herra-mienta{
     
@@ -252,7 +240,7 @@ nav.navegacion a{
         
         }
         
-    }
+    
 
     .galeria3{
         width: 1542;
@@ -436,8 +424,22 @@ nav.navegacion a{
             font-size: 18px;
         }
         
+        .boton.boton_porfolio:hover{
+            background-color: rgba(0, 255, 255, 0.67);
+        }
+
+
+
+        .boton,.boton_porfolio{
+            border-radius: 5px;
+            background-color: rgb(65, 41, 219);
+            position: relative;
+            top: 10px;
+        }
+    
         
 
+        
 /*pagina sobre mi*/
 
 .text-content{

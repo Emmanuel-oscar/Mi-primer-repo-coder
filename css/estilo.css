@@ -20,63 +20,64 @@ nav.navegacion {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*menu mobil*/
 }
-nav.navegacion nav.navegacion a {
+
+nav.navegacion a {
   text-decoration: none;
   color: aliceblue;
 }
-nav.navegacion nav.navegacion a {
+
+nav.navegacion a {
   text-decoration: none;
   color: aliceblue;
 }
-nav.navegacion .navegacion .logo__container {
-  margin: 8px;
-  width: 30px;
-  display: flex;
-  align-items: end;
-  justify-items: center;
-}
-nav.navegacion .navegacion__nav {
+
+.navegacion__nav {
   display: flex;
   list-style: none;
   align-content: space-between;
   width: 50%;
   background-color: rgba(245, 245, 245, 0);
 }
-nav.navegacion .navegacion__nav .nav__item {
+
+.navegacion__nav .nav__item {
   padding: 5px;
   margin-left: 50px;
   display: flex;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
 }
-nav.navegacion .nav__item:hover {
+
+.nav__item:hover {
   background-color: blueviolet;
 }
-nav.navegacion .nav__item:active {
+
+.nav__item:active {
   background-color: aqua;
 }
-nav.navegacion .boton {
+
+.boton {
   color: rgb(255, 255, 255);
   border: none;
   display: flex;
   justify-content: center;
 }
-nav.navegacion .boton, nav.navegacion .boton_porfolio {
-  border-radius: 5px;
-  background-color: rgb(65, 41, 219);
-  position: relative;
-  top: 10px;
+
+/*menu mobil*/
+.navegacion .logo__container {
+  margin: 8px;
+  width: 30px;
+  display: flex;
+  align-items: end;
+  justify-items: center;
 }
-nav.navegacion .boton.boton_porfolio:hover {
-  background-color: rgba(0, 255, 255, 0.67);
-}
-nav.navegacion #check_menu, nav.navegacion .navegacion label {
-  display: none;
-}
-nav.navegacion .navegacion, nav.navegacion label i {
+
+.navegacion, label i {
   font-size: 1.8rem;
+}
+
+#check_menu, .navegacion label {
+  display: none;
 }
 
 /*portada inicio*/
@@ -94,16 +95,20 @@ nav.navegacion .navegacion, nav.navegacion label i {
   grid-template-columns: repeat(1, 1);
   grid-template-rows: repeat(1, 1);
 }
-.portada-ind p, .portada-ind h1 {
+
+p, h1 {
   font-family: "Rubik", sans-serif;
 }
-.portada-ind li {
+
+li {
   font-family: "Rubik", sans-serif;
 }
-.portada-ind strong {
+
+strong {
   font-family: "Cinzel", serif;
 }
-.portada-ind .portada {
+
+.portada {
   display: flex;
   margin-top: -300px;
   align-content: center;
@@ -175,10 +180,12 @@ nav.navegacion .navegacion, nav.navegacion label i {
   width: 1520px;
   height: 100px;
 }
-.herra-padre .herra-mienta {
+
+.herra-mienta {
   display: flex;
 }
-.herra-padre .foto-herramienta {
+
+.foto-herramienta {
   width: 1542px;
   height: 720;
   display: flex;
@@ -338,6 +345,17 @@ video {
 
 .porfolio_container, .card_container {
   font-size: 18px;
+}
+
+.boton.boton_porfolio:hover {
+  background-color: rgba(0, 255, 255, 0.67);
+}
+
+.boton, .boton_porfolio {
+  border-radius: 5px;
+  background-color: rgb(65, 41, 219);
+  position: relative;
+  top: 10px;
 }
 
 /*pagina sobre mi*/
