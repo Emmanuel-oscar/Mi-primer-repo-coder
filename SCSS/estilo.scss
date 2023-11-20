@@ -20,27 +20,19 @@ nav.navegacion {
     background-color: rgba(0, 0, 0, 0.896); 
     display: flex;
     align-items: center;
-    justify-content: space-between; }
+    justify-content: space-between; 
+
+    .logo__container{
     
-
-nav.navegacion a{
-        text-decoration: none;
-        color: aliceblue;
-       
-  
-    }
-
-nav.navegacion a{
-        text-decoration: none;
-        color: aliceblue;
-       
-    }
-
+        margin: 8px;
+        width: 30px;
+        display: flex;
+        align-items: end;
+        justify-items: center;
     
-    
-       
+    } 
 
-.navegacion__nav{
+    .navegacion__nav{
         display: flex;
         list-style: none;
         align-content: space-between;
@@ -49,6 +41,17 @@ nav.navegacion a{
     
       
     }
+    
+}
+    
+nav.navegacion a{
+    text-decoration: none;
+    color: aliceblue;
+   
+
+}
+
+
 
     
 .navegacion__nav .nav__item{
@@ -79,15 +82,7 @@ nav.navegacion a{
    
    
        /*menu mobil*/
-.navegacion .logo__container{
-    
-    margin: 8px;
-    width: 30px;
-    display: flex;
-    align-items: end;
-    justify-items: center;
 
-} 
 .navegacion , label i{
     font-size: 1.8rem;
 

@@ -21,23 +21,24 @@ nav.navegacion {
   align-items: center;
   justify-content: space-between;
 }
-
-nav.navegacion a {
-  text-decoration: none;
-  color: aliceblue;
+nav.navegacion .logo__container {
+  margin: 8px;
+  width: 30px;
+  display: flex;
+  align-items: end;
+  justify-items: center;
 }
-
-nav.navegacion a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.navegacion__nav {
+nav.navegacion .navegacion__nav {
   display: flex;
   list-style: none;
   align-content: space-between;
   width: 50%;
   background-color: rgba(245, 245, 245, 0);
+}
+
+nav.navegacion a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .navegacion__nav .nav__item {
@@ -64,14 +65,6 @@ nav.navegacion a {
 }
 
 /*menu mobil*/
-.navegacion .logo__container {
-  margin: 8px;
-  width: 30px;
-  display: flex;
-  align-items: end;
-  justify-items: center;
-}
-
 .navegacion, label i {
   font-size: 1.8rem;
 }
