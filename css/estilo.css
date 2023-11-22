@@ -35,18 +35,24 @@ nav.navegacion .navegacion__nav {
   width: 50%;
   background-color: rgba(245, 245, 245, 0);
 }
-
-nav.navegacion a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.navegacion__nav .nav__item {
+nav.navegacion .nav__item {
   padding: 5px;
   margin-left: 50px;
   display: flex;
   font-family: "Rubik", sans-serif;
   font-size: 16px;
+}
+nav.navegacion .logo {
+  margin: 8px;
+  width: 100px;
+  display: flex;
+  align-items: end;
+  justify-items: center;
+}
+
+nav.navegacion a {
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .nav__item:hover {
@@ -88,6 +94,15 @@ nav.navegacion a {
   grid-template-columns: repeat(1, 1);
   grid-template-rows: repeat(1, 1);
 }
+.portada-ind .portada {
+  display: flex;
+  margin-top: -300px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+}
 
 p, h1 {
   font-family: "Rubik", sans-serif;
@@ -101,26 +116,7 @@ strong {
   font-family: "Cinzel", serif;
 }
 
-.portada {
-  display: flex;
-  margin-top: -300px;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  display: grid;
-}
-
 /*FOTO portfolio iniico*/
-.porfo-inicio {
-  display: flex;
-  background-color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  width: 1520px;
-  height: 100px;
-}
-
 .porfo {
   font-size: 60px;
   display: flex;
@@ -212,8 +208,16 @@ strong {
   display: flex;
   background-color: #000000;
 }
-
-.inicio_container {
+.pag-inicio .porfo-inicio {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 1520px;
+  height: 100px;
+  font-size: 40px;
+}
+.pag-inicio .inicio_container {
   width: 100%;
   padding: 2rem 4%;
   height: 100%;
@@ -222,11 +226,6 @@ strong {
   grid-template-columns: repeat(2, 1fr);
   flex-wrap: wrap;
   align-content: space-evenly;
-}
-
-.card {
-  height: 400px;
-  width: 400px;
 }
 
 .porfo {
