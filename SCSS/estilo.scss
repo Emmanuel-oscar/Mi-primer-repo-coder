@@ -12,7 +12,7 @@ body{
     width: 100%;
     height: 100vh;
 }
-
+/*navegacion de todas las paginas*/
 nav.navegacion {
     position: sticky;
     top: 0;
@@ -64,15 +64,20 @@ nav.navegacion {
     }
 
    
-
+/*navegacion de paagina mis servicios*/
     nav.navegacion a{
     text-decoration: none;
     color: aliceblue;
-   }
-
-    
-
-    
+   
+    .nav__item:hover{
+        background-color: blueviolet;
+    }
+    .nav__item:hover{
+        background-color: blueviolet;
+    }
+    .nav__item:hover{
+        background-color: blueviolet;
+    }
     .nav__item:hover{
         background-color: blueviolet;
     }
@@ -88,51 +93,70 @@ nav.navegacion {
         justify-content: center;
     
     }
-    
-   
-   
-       /*menu mobil*/
+
+
+}
+
+/*seudo clasess*/
+.nav__item:hover{
+    background-color: blueviolet;
+}
+
+.nav__item:active{
+    background-color: aqua;
+}
+
+.boton{
+    color: rgb(255, 255, 255);
+    border: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*menu mobil*/
 
 .navegacion , label i{
-    font-size: 1.8rem;
+font-size: 1.8rem;
 
 }
 
 #check_menu ,.navegacion  label{
-    display: none;
-    
+display: none;
 }
 
 
+/*todos los codigos de pagina inicio*/
+/*portada inicio*/
+.portada-ind{
+color: #ffffffcb; 
+font-family:'Rubik', sans-serif;
+position: absolute;
+font-size: 85px;
+display: flex;
+align-content: center;
+justify-content: center;
+flex-wrap: wrap;
+display: grid; 
+grid-template-columns: repeat(1,1);
+grid-template-rows: repeat(1,1);
 
- /*portada inicio*/
-  .portada-ind{
-    color: #ffffffcb; 
-    font-family:'Rubik', sans-serif;
-    position: relative;
-    top: 350px;
-    font-size: 85px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    display: grid;
-    grid-template-columns: repeat(1,1);
-    grid-template-rows: repeat(1,1);
-  
-    .portada{
-        display: flex;
-        margin-top: -300px;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        display: grid;
-       } 
+
 
 }
- 
- 
+
+.portada{
+position: relative;
+top: -200px;
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+display: grid;
+} 
+
  
  
  p,h1{
@@ -160,17 +184,7 @@ nav.navegacion {
    /*FOTO portfolio iniico*/
   
 
-.porfo{
-    font-size: 60px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    font-family: 'Rubik', sans-serif;
 
-    
-    
-    
- }  
 
  .galeria2{
     height:100%;
@@ -186,6 +200,104 @@ nav.navegacion {
     
   }
 
+  .pag-inicio{
+    position: relative;
+    top: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    display: flex;
+    background-color: #000000;
+
+    .porfo-inicio{
+        display: flex;
+        background-color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        width: 1520px;
+        height: 100px;
+        font-size: 40px;
+    }
+
+    .inicio_container{
+        width: 100%;
+        padding: 2rem 4%;
+        height: 100%;
+        display: grid;
+        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
+        
+        flex-wrap: wrap;
+        align-content: space-evenly;
+    
+        }
+    
+}
+/*foto multimedia*/
+.multi-padre{
+    position: relative;
+    top: -200px;
+    font-family:'Rubik', sans-serif;
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    font-family:  'Rubik', sans-serif;
+    font-size: 40px;
+}
+   
+.galeria3{
+    position: relative;
+    top: -200px;
+    width: 1542;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+  /*foto de seccion herramientas inicio*/
+  .herra-padre{
+    position: relative;
+    top: -200px;
+    display: flex;
+    background-color: rgb(254, 255, 255); height: 100px; width: 1520;
+    align-items: center;
+    justify-content: center;
+    width: 1520px;
+    height: 100px;
+    font-size: 36px;
+    font-family:'Rubik', sans-serif;
+}
+    
+ 
+    .foto-herramienta{
+        position: relative;
+        top: -170px;
+        width: 1542px;
+        height: 720;
+        display: flex;
+        align-content: center;
+        justify-content: end;
+    
+    }
+    
+
+ .foto-multimedia{
+        width: 720;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 255, 255, 0.51);
+    
+    }
+    
+
 /*todos los colores al apoyar cursor*/
   .flett{
     border-radius: 20px;
@@ -200,105 +312,14 @@ nav.navegacion {
 
   }
 
-  .multi-padre{
-    display: flex;
-    background-color: #ffffff;
-    align-items: center;
-    justify-content: center;
-    width: 1520px;
-    height: 100px;
-    font-family:  'Rubik', sans-serif;
-    font-size: 40px;}
-
-
-
-    /*foto de seccion multimedia inicio*/
-    .herra-padre{
-        display: flex;
-        background-color: rgb(254, 255, 255); height: 100px; width: 1520;
-        align-items: center;
-        justify-content: center;
-        width: 1520px;
-        height: 100px;
-    }
-        
-        .herra-mienta{
-    
-            display: flex;
-         
-        }
-        .foto-herramienta{
-            width: 1542px;
-            height: 720;
-            display: flex;
-            align-content: center;
-            justify-content: end;
-        
-        }
-        
-    
-
-    .galeria3{
-        width: 1542;
-        display: flex;
-        align-items: center;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-     
-
-        .foto-multimedia{
-            width: 720;
-            display: flex;
-            align-items: center;
-            align-items: center;
-            justify-content: center;
-            background-color: rgba(0, 255, 255, 0.51);
-        
-        }
-        
-
-
-    }
-    .pag-inicio{
-        position: relative;
-        top: 5px;
-        display: flex;
-        flex-wrap: wrap;
-        box-sizing: content-box;
-        display: flex;
-        background-color: #000000;
-
-        .porfo-inicio{
-            display: flex;
-            background-color: #ffffff;
-            align-items: center;
-            justify-content: center;
-            width: 1520px;
-            height: 100px;
-            font-size: 40px;
-            
-            
-            
-        
-        }
-        .inicio_container{
-            width: 100%;
-            padding: 2rem 4%;
-            height: 100%;
-            display: grid;
-            gap: 50px;
-            grid-template-columns: repeat(2, 1fr);
-            
-            flex-wrap: wrap;
-            align-content: space-evenly;
-        
-            
-        }
-        
-   }
-   
  
+
+
+  
+
+
+    
+    
    
    
    
@@ -444,7 +465,17 @@ nav.navegacion {
             top: 10px;
         }
     
+        .porfo{
+            font-size: 60px;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            font-family: 'Rubik', sans-serif;
         
+            
+            
+            
+         }  
 
         
 /*pagina sobre mi*/
@@ -461,15 +492,11 @@ nav.navegacion {
 }
 
 
-
-
-    .content-main{
+.content-main{
         position: relative;
         top: 200px;}
         
-    
-    
-    .foto-sobremi{
+ .foto-sobremi{
      
         display: flex;
         align-items: center;
@@ -552,10 +579,7 @@ form #enviar{
     width: 100%;
     display: flex;
     align-content: center;
-    flex-wrap: wrap;
-
-
-    
+    flex-wrap: wrap;   
     
 }
 
