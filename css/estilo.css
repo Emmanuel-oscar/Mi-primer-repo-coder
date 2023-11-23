@@ -562,5 +562,8 @@ form {
     grid-template-columns: repeat(1, 2);
   }
 }
+@media screen {
+  /*aqui van las reglas*/
+}
 
 /*# sourceMappingURL=estilo.css.map */
