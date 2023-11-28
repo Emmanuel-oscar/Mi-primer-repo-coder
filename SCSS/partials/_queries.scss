@@ -1,3 +1,152 @@
 @media screen {
     /*aqui van las reglas*/
+
+
+     /*responsive navegador*/
+
+     @media(max-width:768px) {
+        .navegacion label{
+            display: block;
+            color: blueviolet;
+        }
+
+      
+            .navegacion__nav ,.nave {
+            display: none;
+        }
+
+        .servic1,.servic2{
+            font-size: 40px;
+            
+        }
+        .porfo,.portada{
+            position: relative;
+            
+            left: 0; 
+            width: 100%;
+            height: 100%;
+            right: 0;
+            
+        }
+    }
+  
+    /*navegador de pagina mis servicios*/
+
+    
+    @media( max-width: 440px){
+        .navbar label{
+            display: block;
+            color: blueviolet;
+            
+        }
+
+        .nave li{
+
+            display: none;
+        }
+        .navegacion  #check_menu:checked~.navegacion__nav {
+
+            display: block;
+            background: rgba(137, 43, 226, 0.767);
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            top: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: start;
+        }     
+            /*titulo de pantalla de inicio*/
+        .portada-ind{
+            font-size: 20px;
+            left: 0;
+           
+            
+        }
+        
+       
+
+
+        .galeria2,.galeria{
+            left: 0; width: 100%;
+            height: 100%;
+            right: 0;
+
+         
+        
+        }
+        .porfo{
+            position: relative;
+            
+            left: 0; 
+            width: 100%;
+            height: 100%;
+            right: 0;
+            
+        }
+
+        .header__container{
+            left: 0;
+            width: 100%;
+           
+        }
+    }
+  
+    @media( max-width: 430px){
+
+        .header__container{
+            left: 0;
+            width: 100%;
+            font-size: 10px;
+        }
+         
+        .porfolio_container,.inicio_container,.portada,.galeria{
+            grid-template-columns: repeat(1, 1fr);
+
+        }    
+    
+        .servic1,.servic2{
+            font-size: 40px;
+            
+        }
+        }     
+            
+     @media(max-width: 1000px){
+             
+            .porfolio_container{
+           
+
+            position: relative;
+            top: 50px;
+            width: 100%;
+            padding: 1rem 4%;
+            height: 40%;
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            flex-wrap: wrap;   
+            
+
+         }
+        
+        }
+        @media(max-width: 550px){              
+        .porfolio_container,.inicio_container,.porfo,.fondi-porfoli{
+            grid-template-columns: repeat(1, 1fr);
+        }
+        }    
+    
+    
+        @media(max-width: 768px){
+            .inicio_container,.fondi-porfoli,.porfo{
+
+               grid-template-columns: repeat(1,2);
+            }
+            
+            
+           
+
+            }
 }

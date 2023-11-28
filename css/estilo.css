@@ -1,7 +1,9 @@
+/*variables*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -17,7 +19,7 @@ nav.navegacion {
   z-index: 10;
   width: 100%;
   height: 90px;
-  background-color: rgba(0, 0, 0, 0.896);
+  background-color: rgba(0, 0, 0, 0.894);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -496,8 +498,12 @@ form {
 }
 
 /* la classe del navegador de la pagina servicio es distinto, */
-/*responsive navegador*/
-@media (max-width: 768px) {
+@media screen {
+  /*aqui van las reglas*/
+  /*responsive navegador*/
+  /*navegador de pagina mis servicios*/
+}
+@media screen and (max-width: 768px) {
   .navegacion label {
     display: block;
     color: blueviolet;
@@ -516,8 +522,7 @@ form {
     right: 0;
   }
 }
-/*navegador de pagina mis servicios*/
-@media (max-width: 440px) {
+@media screen and (max-width: 440px) {
   .navbar label {
     display: block;
     color: blueviolet;
@@ -561,7 +566,7 @@ form {
     width: 100%;
   }
 }
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
   .header__container {
     left: 0;
     width: 100%;
@@ -574,7 +579,7 @@ form {
     font-size: 40px;
   }
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .porfolio_container {
     position: relative;
     top: 50px;
@@ -587,18 +592,15 @@ form {
     flex-wrap: wrap;
   }
 }
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .porfolio_container, .inicio_container, .porfo, .fondi-porfoli {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .inicio_container, .fondi-porfoli, .porfo {
     grid-template-columns: repeat(1, 2);
   }
-}
-@media screen {
-  /*aqui van las reglas*/
 }
 
 /*# sourceMappingURL=estilo.css.map */
