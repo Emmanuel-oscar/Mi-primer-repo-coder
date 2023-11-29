@@ -406,7 +406,7 @@ video {
 .header___container {
   width: 100%;
   margin-top: 60px;
-  /*  background-image: url("../img/imagen17.jpg");*/
+  background-image: url("../img/imagen17.jpg");
   background-repeat: no-repeat;
   background-position: cover;
 }
