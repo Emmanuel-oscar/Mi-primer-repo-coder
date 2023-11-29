@@ -1,19 +1,640 @@
-/* Error: Expected expression.
- *     ,
- 
- *   background-image: url("../img/imagen17.jpg");
- *     |                      ^
- *     '
- *   scss\estilo.scss 502:22  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Expected expression.\a     \2577 \a 502 \2502     background-image: ;\d\a     \2502                       ^\a     \2575 \a   scss\\estilo.scss 502:22  root stylesheet";
+/*variables*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
 }
 
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+/*navegacion de todas las paginas*/
+nav.navegacion {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 90px;
+  background-color: rgba(0, 0, 0, 0.894);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav.navegacion .logo__container {
+  margin: 8px;
+  width: 30px;
+  display: flex;
+  align-items: end;
+  justify-items: center;
+}
+nav.navegacion .navegacion__nav {
+  display: flex;
+  list-style: none;
+  align-content: space-between;
+  width: 50%;
+  background-color: rgba(245, 245, 245, 0);
+}
+nav.navegacion .nav__item {
+  padding: 5px;
+  margin-left: 50px;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+nav.navegacion .logo {
+  margin: 8px;
+  width: 100px;
+  display: flex;
+  align-items: end;
+  justify-items: center;
+}
+
+/*navegacion de paagina mis servicios*/
+nav.navegacion a {
+  text-decoration: none;
+  color: aliceblue;
+}
+nav.navegacion a .nav__item:hover {
+  background-color: blueviolet;
+}
+nav.navegacion a .nav__item:hover {
+  background-color: blueviolet;
+}
+nav.navegacion a .nav__item:hover {
+  background-color: blueviolet;
+}
+nav.navegacion a .nav__item:hover {
+  background-color: blueviolet;
+}
+nav.navegacion a .nav__item:active {
+  background-color: aqua;
+}
+nav.navegacion a .boton {
+  color: rgb(255, 255, 255);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+/*seudo clasess*/
+.nav__item:hover {
+  background-color: blueviolet;
+}
+
+.nav__item:active {
+  background-color: aqua;
+}
+
+.boton {
+  color: rgb(255, 255, 255);
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+/*menu mobil*/
+.navegacion, label i {
+  font-size: 1.8rem;
+}
+
+#check_menu, .navegacion label {
+  display: none;
+}
+
+/*todos los codigos de pagina inicio*/
+/*portada inicio*/
+.portada-ind {
+  color: rgba(255, 255, 255, 0.7960784314);
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  font-size: 85px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(1, 1);
+  grid-template-rows: repeat(1, 1);
+}
+
+.portada {
+  position: relative;
+  top: -200px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+}
+
+p, h1 {
+  font-family: "Rubik", sans-serif;
+}
+
+li {
+  font-family: "Rubik", sans-serif;
+}
+
+strong {
+  font-family: "Cinzel", serif;
+}
+
+/*FOTO portfolio iniico*/
+.galeria2 {
+  height: 100%;
+  width: 100vh;
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.pag-inicio {
+  position: relative;
+  top: -200px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  display: flex;
+  background-color: #000000;
+}
+.pag-inicio .porfo-inicio {
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 1520px;
+  height: 100px;
+  font-size: 40px;
+}
+.pag-inicio .inicio_container {
+  width: 100%;
+  padding: 2rem 4%;
+  height: 100%;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+/*foto multimedia*/
+.multi-padre {
+  position: relative;
+  top: -200px;
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 1520px;
+  height: 100px;
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+}
+
+.galeria3 {
+  position: relative;
+  top: -200px;
+  width: 1542;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*foto de seccion herramientas inicio*/
+.herra-padre {
+  position: relative;
+  top: -200px;
+  display: flex;
+  background-color: rgb(254, 255, 255);
+  height: 100px;
+  width: 1520;
+  align-items: center;
+  justify-content: center;
+  width: 1520px;
+  height: 100px;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+}
+
+.foto-herramienta {
+  position: relative;
+  top: -170px;
+  width: 1542px;
+  height: 720;
+  display: flex;
+  align-content: center;
+  justify-content: end;
+}
+
+.foto-multimedia {
+  width: 720;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 255, 255, 0.51);
+}
+
+/*todos los colores al apoyar cursor*/
+.flett {
+  border-radius: 20px;
+  width: 500px;
+  height: 400px;
+}
+.flett .flett:hover {
+  background-color: green;
+  opacity: 0.88;
+}
+
+.porfo {
+  color: #000000;
+}
+
+.card:hover img {
+  background-color: aqua;
+  opacity: 0.85;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+  width: 100%;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+
+/*pagina porfolio*/
+.header__container video {
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header__container .capa {
+  position: absolute;
+  height: 65%;
+  width: 100%;
+  background-color: rgb(120, 21, 212);
+  mix-blend-mode: overlay;
+}
+
+.servic1 {
+  position: absolute;
+  color: aliceblue;
+  background-color: rgba(0, 255, 255, 0.482);
+  top: 50%;
+  margin-left: 5%;
+}
+
+.servic2 {
+  position: absolute;
+  color: aliceblue;
+  background-color: rgba(0, 255, 255, 0.505);
+  top: 40%;
+  margin-left: 5%;
+}
+
+video {
+  position: relative;
+  top: px;
+}
+
+.enla.final {
+  position: relative;
+  top: 100px;
+}
+
+.header__container.content-main {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+}
+
+.pag-porfolio {
+  position: relative;
+  top: 500px;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+.porfolio_container {
+  width: 100%;
+  padding: 1rem 4%;
+  height: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 2fr);
+  flex-wrap: wrap;
+}
+
+.porfolio_container, .card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 300px;
+  opacity: 1;
+}
+
+.card, .card_container a.boton {
+  width: 100%;
+  padding: 10px;
+  font-size: 0.88rem;
+  align-self: flex-end;
+}
+
+.porfolio_container, .card_title {
+  font-size: 22px;
+}
+
+.porfolio_container, .card_title:hover {
+  color: rgb(0, 255, 60);
+}
+
+.porfolio_container, .card_container {
+  font-size: 18px;
+}
+
+.boton.boton_porfolio:hover {
+  background-color: rgba(0, 255, 255, 0.67);
+}
+
+.boton, .boton_porfolio {
+  border-radius: 5px;
+  background-color: rgb(65, 41, 219);
+  position: relative;
+  top: 10px;
+}
+
+.porfo {
+  font-size: 60px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-family: "Rubik", sans-serif;
+}
+
+/*pagina sobre mi*/
+/*sobre mi*/
+.presentacion-sobremi h3 {
+  position: relative;
+  top: -170px;
+  width: 100%;
+  margin-left: 50px;
+}
+
+.header___container {
+  position: relative;
+  top: -150px;
+  width: 100%;
+  height: 100vh;
+}
+
+.header___container {
+  width: 100%;
+  margin-top: 60px;
+  background-image: url("../img/imagen17.jpg");
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+
+.portada-sobremi {
+  position: relative;
+  top: -600px;
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content {
+  background-color: rgb(210, 210, 185);
+  width: 50%;
+  height: 500px;
+  overflow: auto;
+  position: relative;
+  top: -800px;
+  padding: 5%;
+  margin-left: 60px;
+}
+
+.content-main {
+  position: relative;
+  top: 2px;
+}
+
+.foto-sobremi {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-wrap: wrap;
+  padding: 100px;
+  position: relative;
+  top: -200px;
+  border-bottom: #000000;
+}
+
+/*todos los h2*/
+h2.mas.arriba {
+  position: relative;
+  top: 300px;
+}
+
+/*FORMULARIO DE CONTACTO*/
+form input {
+  width: 100%;
+  font-size: 25px;
+  background-color: rgba(255, 255, 255, 0.788);
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgb(43, 125, 226);
+}
+
+form input::placeholder {
+  color: rgba(44, 111, 228, 0.753);
+}
+
+.contacto-formula {
+  position: relative;
+  top: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Rubik", sans-serif;
+  color: #ffffff;
+  background-color: #040404;
+  height: 130px;
+}
+
+form textarea {
+  width: 100%;
+  font-size: 27px;
+  background-color: transparent;
+  border-radius: 20px solid blueviolet;
+  border-bottom: 2px solid blueviolet;
+}
+
+form textarea::placeholder {
+  color: rgba(44, 111, 228, 0.753);
+}
+
+form #enviar {
+  background-color: blueviolet;
+  font-size: 25px;
+  border-radius: 20px;
+  border: 3px solid rgba(44, 111, 228, 0.753);
+}
+
+#iframe {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+form {
+  padding: 30px;
+  box-sizing: border-box;
+  border: 100%;
+  height: 100% vh;
+  background-image: url(../img/imagen13.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.896);
+}
+
+.ubi-cacion iframe {
+  position: relative;
+  display: flex;
+  top: 25px;
+  width: 100%;
+  color: #040404;
+}
+
+.content-contacto {
+  position: relative;
+  top: -29px;
+}
+
+/* la classe del navegador de la pagina servicio es distinto, */
+@media screen {
+  /*aqui van las reglas*/
+  /*responsive navegador*/
+  /*navegador de pagina mis servicios*/
+}
+@media screen and (max-width: 768px) {
+  .navegacion label {
+    display: block;
+    color: blueviolet;
+  }
+  .navegacion__nav, .nave {
+    display: none;
+  }
+  .servic1, .servic2 {
+    font-size: 40px;
+  }
+  .porfo, .portada {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 440px) {
+  .navbar label {
+    display: block;
+    color: blueviolet;
+  }
+  .nave li {
+    display: none;
+  }
+  .navegacion #check_menu:checked ~ .navegacion__nav {
+    display: block;
+    background: rgba(137, 43, 226, 0.767);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+  /*titulo de pantalla de inicio*/
+  .portada-ind {
+    font-size: 20px;
+    left: 0;
+  }
+  .galeria2, .galeria {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+  .porfo {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+  .header__container {
+    left: 0;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .header__container {
+    left: 0;
+    width: 100%;
+    font-size: 10px;
+  }
+  .porfolio_container, .inicio_container, .portada, .galeria {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .servic1, .servic2 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .porfolio_container {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 1rem 4%;
+    height: 40%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 550px) {
+  .porfolio_container, .inicio_container, .porfo, .fondi-porfoli {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .inicio_container, .fondi-porfoli, .porfo {
+    grid-template-columns: repeat(1, 2);
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
