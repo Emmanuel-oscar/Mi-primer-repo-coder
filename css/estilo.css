@@ -1,6 +1,7 @@
 /* Error: Expected expression.
  *     ,
- * 502 |    background-image: ;
+ 
+ *   background-image: url("../img/imagen17.jpg");
  *     |                      ^
  *     '
  *   scss\estilo.scss 502:22  root stylesheet */
@@ -15,3 +16,4 @@ body::before {
   border-bottom: 2px solid black;
   content: "Error: Expected expression.\a     \2577 \a 502 \2502     background-image: ;\d\a     \2502                       ^\a     \2575 \a   scss\\estilo.scss 502:22  root stylesheet";
 }
+
