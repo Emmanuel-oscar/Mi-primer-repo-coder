@@ -1,0 +1,28 @@
+$temporada:"imagen20";
+
+/*condicionales*/
+
+@if ($temporada == "imagen17") {
+    .header___container {
+        background-image: url("../img/imagen17.jpg");
+
+        
+    }
+
+}@else if ($temporada== "imagen10"){
+
+    .header___container{
+        background-image: url("../img/imagen10.jpg");
+
+        
+    }
+
+}@else if ($temporada== "imagen20"){
+
+    .header___container{
+        background-image: url("../img/imagen20.jpg");
+
+        
+    }
+
+}
