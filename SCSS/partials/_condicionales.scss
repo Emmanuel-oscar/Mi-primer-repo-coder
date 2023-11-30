@@ -1,11 +1,11 @@
-$temporada:"imagen10";
+$temporada:"imagen20";
 
 /*condicionales*/
 
 @if ($temporada == "imagen17") {
     .header___container {
         background-image: url("../img/imagen17.jpg");
-
+    background-position: bottom;
         
     }
 
@@ -21,7 +21,7 @@ $temporada:"imagen10";
 
     .header___container{
         background-image: url("../img/imagen20.jpg");
-
+background-position: 0 bottom;
         
     }
 
