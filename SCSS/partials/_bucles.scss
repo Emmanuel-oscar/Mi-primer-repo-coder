@@ -1,0 +1,7 @@
+@for $i from 1 to 3 {
+   
+    .portada-sobremi-#{$i}{
+        font-size: 1rem * $i;
+    }
+
+}

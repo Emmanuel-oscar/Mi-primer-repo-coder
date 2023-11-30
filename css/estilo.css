@@ -5,6 +5,14 @@
   background-position: 0 bottom;
 }
 
+.portada-sobremi-1 {
+  font-size: 1rem;
+}
+
+.portada-sobremi-2 {
+  font-size: 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
