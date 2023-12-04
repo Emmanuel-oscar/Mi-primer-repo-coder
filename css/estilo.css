@@ -1,9 +1,9 @@
 /* Error: expected "}".
  *     ,
- * 173 |         }     
+ * 172 |         }     
  *     |               ^
  *     '
- *   scss\partials\_queries.scss 173:15  @import
+ *   scss\partials\_queries.scss 172:15  @import
  *   scss\estilo.scss 663:12             root stylesheet */
 
 body::before {
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 173 \2502          }     \a     \2502                ^\a     \2575 \a   scss\\partials\\_queries.scss 173:15  @import\a   scss\\estilo.scss 663:12             root stylesheet';
+  content: 'Error: expected "}".\a     \2577 \a 172 \2502          }     \a     \2502                ^\a     \2575 \a   scss\\partials\\_queries.scss 172:15  @import\a   scss\\estilo.scss 663:12             root stylesheet';
 }
