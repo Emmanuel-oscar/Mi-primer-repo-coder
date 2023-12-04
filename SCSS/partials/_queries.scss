@@ -8,18 +8,11 @@
   
     /*navegador de pagina mis servicios*/
 
-    
-   
-  
 
-     
-      
     
         @media(max-width: 1000px){
              
-            .porfolio_container ,.inicio_container{
-           
-
+            .porfo-inicio ,.inicio_container{
             position: relative;
             top: 50px;
             width: 100%;
@@ -40,7 +33,7 @@
                 color: blueviolet;
             }
     
-            .navegacion__nav ,.navegacion {
+            .navegacion__nav ,.navegacion label{
                 display: none;
             }
     
@@ -56,6 +49,7 @@
                 right: 0;
                 
             }
+            
         }
 
 
@@ -93,7 +87,7 @@
             }   
             
             
-            
+
          @media( max-width: 440px){
                 .navbar label{
                     display: block;
@@ -173,4 +167,6 @@
             font-size: 40px;
             
         }
-        }     
+
+         }
+        }

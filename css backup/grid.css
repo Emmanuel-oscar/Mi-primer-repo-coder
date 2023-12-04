@@ -320,7 +320,7 @@
     .nav_item_grid:hover{
         background-color: blueviolet;
     }
-    .navbar  #check_menu:checked~.nave   li {
+    .navbar  #check_menu:checked ~ .nave   li {
 
         display: block;
         background: rgba(137, 43, 226, 0.784);
