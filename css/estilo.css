@@ -115,7 +115,7 @@ nav.navegacion a .boton {
   font-size: 1.8rem;
 }
 
-#check_menu, .navegacion label {
+#check_menu, .navegacion__nav label {
   display: none;
 }
 
@@ -550,31 +550,12 @@ form {
   /*responsive navegador*/
   /*navegador de pagina mis servicios*/
 }
-@media screen and (max-width: 768px) {
-  .navegacion label {
-    display: block;
-    color: blueviolet;
-  }
-  .navegacion__nav, .nave {
-    display: none;
-  }
-  .servic1, .servic2 {
-    font-size: 40px;
-  }
-  .porfo, .portada {
-    position: relative;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    right: 0;
-  }
-}
 @media screen and (max-width: 440px) {
   .navbar label {
     display: block;
     color: blueviolet;
   }
-  .nave li {
+  .nave, .navegacion li {
     display: none;
   }
   .navegacion #check_menu:checked ~ .navegacion__nav {
@@ -626,6 +607,48 @@ form {
     font-size: 40px;
   }
 }
+@media screen and (max-width: 550px) {
+  .porfolio_container, .inicio_container, .porfo, .fondi-porfoli {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .navegacion label {
+    display: block;
+    color: blueviolet;
+  }
+  .navegacion__nav, .navegacion {
+    display: none;
+  }
+  .servic1, .servic2 {
+    font-size: 40px;
+  }
+  .porfo, .portada {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    right: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .inicio_container, .fondi-porfoli, .porfo {
+    grid-template-columns: repeat(1, 2);
+  }
+  .navegacion #check_menu:checked ~ .navegacion__nav {
+    display: block;
+    background: rgba(137, 43, 226, 0.767);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+}
 @media screen and (max-width: 1000px) {
   .porfolio_container, .inicio_container {
     position: relative;
@@ -637,16 +660,6 @@ form {
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
-  }
-}
-@media screen and (max-width: 550px) {
-  .porfolio_container, .inicio_container, .porfo, .fondi-porfoli {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .inicio_container, .fondi-porfoli, .porfo {
-    grid-template-columns: repeat(1, 2);
   }
 }
 

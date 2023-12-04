@@ -4,31 +4,7 @@
 
      /*responsive navegador*/
 
-     @media(max-width:768px) {
-        .navegacion label{
-            display: block;
-            color: blueviolet;
-        }
-
-      
-            .navegacion__nav ,.nave {
-            display: none;
-        }
-
-        .servic1,.servic2{
-            font-size: 40px;
-            
-        }
-        .porfo,.portada{
-            position: relative;
-            
-            left: 0; 
-            width: 100%;
-            height: 100%;
-            right: 0;
-            
-        }
-    }
+    
   
     /*navegador de pagina mis servicios*/
 
@@ -40,11 +16,11 @@
             
         }
 
-        .nave li{
+        .nave,.navegacion li{
 
             display: none;
         }
-        .navegacion  #check_menu:checked~.navegacion__nav {
+        .navegacion  #check_menu:checked ~ .navegacion__nav {
 
             display: block;
             background: rgba(137, 43, 226, 0.767);
@@ -112,8 +88,65 @@
             
         }
         }     
-            
-     @media(max-width: 1000px){
+
+        @media(max-width: 550px){              
+            .porfolio_container,.inicio_container,.porfo,.fondi-porfoli{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            }    
+        
+        @media(max-width:768px) {
+            .navegacion label{
+                display: block;
+                color: blueviolet;
+            }
+    
+          
+                .navegacion__nav ,.navegacion {
+                display: none;
+            }
+    
+            .servic1,.servic2{
+                font-size: 40px;
+                
+            }
+            .porfo,.portada{
+                position: relative;
+                
+                left: 0; 
+                width: 100%;
+                height: 100%;
+                right: 0;
+                
+            }
+        }
+        @media(max-width: 768px){
+            .inicio_container,.fondi-porfoli,.porfo{
+
+               grid-template-columns: repeat(1,2);
+            }
+    
+            .navegacion  #check_menu:checked ~ .navegacion__nav {
+
+                
+                display: block;
+                background: rgba(137, 43, 226, 0.767);
+                width: 100%;
+                height: 100vh;
+                position: absolute;
+                left: 0;
+                top: 60px;
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+
+            }
+           
+
+        }
+    
+            @media(max-width: 1000px){
              
             .porfolio_container ,.inicio_container{
            
@@ -132,21 +165,11 @@
          }
         
         }
-        @media(max-width: 550px){              
-        .porfolio_container,.inicio_container,.porfo,.fondi-porfoli{
-            grid-template-columns: repeat(1, 1fr);
-        }
-        }    
+      
     
-    
-        @media(max-width: 768px){
-            .inicio_container,.fondi-porfoli,.porfo{
-
-               grid-template-columns: repeat(1,2);
-            }
+       
             
             
            
 
             }
-}
