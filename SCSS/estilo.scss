@@ -42,15 +42,7 @@ nav.navegacion {
     
     } 
 
-    .navegacion__nav{
-        display: flex;
-        list-style: none;
-        align-content: space-between;
-        width: 50%;
-        background-color: rgba(245, 245, 245, 0)
-    
-      
-    }
+   
 
     .nav__item{
         padding: 5px;    
@@ -58,6 +50,7 @@ nav.navegacion {
         display: flex;
         font-family:'Rubik', sans-serif;
         font-size: 16px;
+        align-content: end;
     
     }
     .logo{
@@ -71,7 +64,15 @@ nav.navegacion {
    
     }
 
-   
+    .navegacion__nav{
+        display: flex;
+        list-style: none;
+        align-content: space-between;
+        width: 50%;
+        background-color: rgba(245, 245, 245, 0)
+    
+      
+    }
 /*navegacion de paagina mis servicios*/
     nav.navegacion a{
     text-decoration: none;
@@ -406,12 +407,8 @@ display: grid;
             width: 100%;
             height: 50vh;
         }
-        
- .video-porfolio{
 
-    
- }
-    
+ 
         .pag-porfolio{
             position: relative;
             top:500px;
