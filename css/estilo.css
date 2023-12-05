@@ -45,14 +45,6 @@ nav.navegacion .logo__container {
   align-items: end;
   justify-items: center;
 }
-nav.navegacion .nav__item {
-  padding: 5px;
-  margin-left: 50px;
-  display: flex;
-  font-family: "Rubik", sans-serif;
-  font-size: 16px;
-  align-content: end;
-}
 nav.navegacion .logo {
   margin: 8px;
   width: 100px;
@@ -67,6 +59,15 @@ nav.navegacion .logo {
   align-content: space-between;
   width: 50%;
   background-color: rgba(245, 245, 245, 0);
+}
+
+.nav__item {
+  padding: 5px;
+  margin-left: 50px;
+  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  align-content: end;
 }
 
 /*navegacion de paagina mis servicios*/

@@ -44,15 +44,7 @@ nav.navegacion {
 
    
 
-    .nav__item{
-        padding: 5px;    
-        margin-left: 50px;
-        display: flex;
-        font-family:'Rubik', sans-serif;
-        font-size: 16px;
-        align-content: end;
-    
-    }
+   
     .logo{
         margin: 8px;
     width: 100px;
@@ -72,6 +64,15 @@ nav.navegacion {
         background-color: rgba(245, 245, 245, 0)
     
       
+    }
+    .nav__item{
+        padding: 5px;    
+        margin-left: 50px;
+        display: flex;
+        font-family:'Rubik', sans-serif;
+        font-size: 16px;
+        align-content: end;
+    
     }
 /*navegacion de paagina mis servicios*/
     nav.navegacion a{
