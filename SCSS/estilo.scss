@@ -220,6 +220,7 @@ display: grid;
     background-color: #000000;
 
     .porfo-inicio{
+       
         display: flex;
         background-color: #ffffff;
         align-items: center;
@@ -406,12 +407,21 @@ display: grid;
             height: 50vh;
         }
         
+ .video-porfolio{
+
+    
+ }
+    
         .pag-porfolio{
             position: relative;
-            top: 500px;
+            top:500px;
             flex-wrap: wrap;
             box-sizing: content-box;    
-            
+            margin: none;
+            background-color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         
         .porfolio_container{

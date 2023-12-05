@@ -344,6 +344,11 @@ video {
   top: 500px;
   flex-wrap: wrap;
   box-sizing: content-box;
+  margin: none;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .porfolio_container {
@@ -549,7 +554,7 @@ form {
   /*navegador de pagina mis servicios*/
 }
 @media screen and (max-width: 1000px) {
-  .porfo-inicio, .inicio_container {
+  .porfo-inicio, .inicio_container, .porfolio_container {
     position: relative;
     top: 50px;
     width: 100%;
@@ -579,11 +584,11 @@ form {
     height: 100%;
     right: 0;
   }
+  .inicio_container, .fondi-porfoli, .porfo, .porfolio_container {
+    grid-template-columns: repeat(2, 1);
+  }
 }
 @media screen and (max-width: 768px) {
-  .inicio_container, .fondi-porfoli, .porfo {
-    grid-template-columns: repeat(1, 2);
-  }
   .navegacion #check_menu:checked ~ .navegacion__nav {
     display: block;
     background: rgba(137, 43, 226, 0.767);
