@@ -1,7 +1,7 @@
 /*variables*/
 /*condicionales*/
 .header___container {
-  background-image: url("../img/imagen20.jpg");
+  background-image: url("../img/desk-593327_1280.jpg");
   background-position: 0 bottom;
 }
 
@@ -424,6 +424,7 @@ video {
   margin-top: 60px;
   background-repeat: no-repeat;
   background-position: cover;
+  background-size: cover;
 }
 
 .portada-sobremi {
@@ -553,6 +554,16 @@ form {
 .footer2 {
   position: relative;
   top: 850px;
+}
+
+.Marketing-online, .text-content {
+  position: relative;
+  bottom: 150px;
+}
+
+.ultimotex {
+  position: relative;
+  bottom: 200px;
 }
 
 @media screen {

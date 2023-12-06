@@ -512,6 +512,7 @@ display: grid;
     margin-top: 60px;
     background-repeat: no-repeat;
     background-position: cover;
+    background-size: cover;
 
     
 }
@@ -673,6 +674,22 @@ form{
     top: 850px
 }
         
+.Marketing-online,.text-content{
+    position: relative;
+    bottom: 150px ;
+
+}
+
+.ultimotex{
+    position: relative;
+    bottom:200px ;
+}
+
+
+
+
+
+
 
 
     @import"./partials/queries";
