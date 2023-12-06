@@ -336,7 +336,7 @@ video {
 
 .pag-porfolio {
   position: relative;
-  top: 50px;
+  top: 500px;
   flex-wrap: wrap;
   box-sizing: content-box;
   margin: none;
@@ -347,6 +347,8 @@ video {
 }
 
 .porfolio_container {
+  position: relative;
+  top: 0px;
   width: 100%;
   padding: 1rem 4%;
   height: 100%;
@@ -543,6 +545,16 @@ form {
 }
 
 /* la classe del navegador de la pagina servicio es distinto, */
+.footer {
+  position: relative;
+  top: 0px;
+}
+
+.footer2 {
+  position: relative;
+  top: 850px;
+}
+
 @media screen {
   /*aqui van las reglas*/
   /*responsive navegador*/
