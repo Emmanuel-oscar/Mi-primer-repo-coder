@@ -167,6 +167,7 @@ align-items: center;
 justify-content: center;
 flex-wrap: wrap;
 display: grid;
+border-radius: 20;
 } 
 
  
@@ -686,6 +687,11 @@ form{
 }
 
 
+.parrafo-inicio{
+    position: relative;
+    top: 50px
+
+}
 
 
 

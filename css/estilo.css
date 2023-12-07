@@ -147,6 +147,7 @@ nav.navegacion a .boton {
   justify-content: center;
   flex-wrap: wrap;
   display: grid;
+  border-radius: 20;
 }
 
 p, h1 {
@@ -564,6 +565,11 @@ form {
 .ultimotex {
   position: relative;
   bottom: 150px;
+}
+
+.parrafo-inicio {
+  position: relative;
+  top: 50px;
 }
 
 @media screen {
