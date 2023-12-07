@@ -161,6 +161,8 @@ grid-template-rows: repeat(2,1);
     
 position: relative;
 top: -200px;
+height: 100vh;
+width: 100%;
 display: flex;
 align-content: center;
 align-items: center;
@@ -675,7 +677,7 @@ form{
     top: 850px
 }
         
-.Marketing-online,.text-content{
+.Marketing-online{
     position: relative;
     bottom: 50px ;
 
@@ -683,7 +685,8 @@ form{
 
 .ultimotex{
     position: relative;
-    bottom:150px ;
+    bottom:50px ;
+
 }
 
 

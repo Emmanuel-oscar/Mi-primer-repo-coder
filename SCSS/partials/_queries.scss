@@ -84,7 +84,18 @@
             .porfolio_container,.inicio_container,.porfo,.fondi-porfoli,.pag-inicio{
                 grid-template-columns: repeat(1, 1fr);
             }
-            }   
+
+            .ultimotex{
+                position: relative;
+                bottom: 200px;
+            }
+            
+            .footer-altura{
+                position: relative;
+                bottom: 300px;
+            }
+        }   
+
             
             
 

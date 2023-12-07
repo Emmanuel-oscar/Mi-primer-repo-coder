@@ -1,8 +1,8 @@
 /*variables*/
 /*condicionales*/
 .header___container {
-  background-image: url("../img/desk-593327_1280.jpg");
-  background-position: 0 bottom;
+  background-image: url("../img/imagen17.jpg");
+  background-position: bottom;
 }
 
 .portada-sobremi-1 {
@@ -141,6 +141,8 @@ nav.navegacion a .boton {
 .portada {
   position: relative;
   top: -200px;
+  height: 100vh;
+  width: 100%;
   display: flex;
   align-content: center;
   align-items: center;
@@ -557,14 +559,14 @@ form {
   top: 850px;
 }
 
-.Marketing-online, .text-content {
+.Marketing-online {
   position: relative;
   bottom: 50px;
 }
 
 .ultimotex {
   position: relative;
-  bottom: 150px;
+  bottom: 50px;
 }
 
 .parrafo-inicio {
@@ -630,6 +632,14 @@ form {
 @media screen and (max-width: 550px) {
   .porfolio_container, .inicio_container, .porfo, .fondi-porfoli, .pag-inicio {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .ultimotex {
+    position: relative;
+    bottom: 200px;
+  }
+  .footer-altura {
+    position: relative;
+    bottom: 300px;
   }
 }
 @media screen and (max-width: 440px) {
