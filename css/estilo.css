@@ -56,7 +56,8 @@ nav.navegacion .logo {
 .navegacion__nav {
   display: flex;
   list-style: none;
-  align-content: space-between;
+  align-content: center;
+  justify-content: center;
   width: 50%;
   background-color: rgba(245, 245, 245, 0);
 }
@@ -114,11 +115,12 @@ nav.navegacion a .boton {
 }
 
 /*menu mobil*/
-.navegacion, label i {
+nav.navegacion,
+label i {
   font-size: 1.8rem;
 }
 
-#check_menu, .navegacion__nav label {
+#check_menu, .navegacion label {
   display: none;
 }
 
@@ -152,7 +154,8 @@ nav.navegacion a .boton {
   border-radius: 20;
 }
 
-p, h1 {
+p,
+h1 {
   font-family: "Rubik", sans-serif;
 }
 
@@ -351,7 +354,7 @@ video {
 
 .porfolio_container {
   position: relative;
-  top: 0px;
+  top: 20px;
   width: 100%;
   padding: 1rem 4%;
   height: 100%;
@@ -361,29 +364,34 @@ video {
   flex-wrap: wrap;
 }
 
-.porfolio_container, .card img {
+.porfolio_container,
+.card img {
   border-radius: 5px 5px 0 0;
   width: 100%;
   height: 300px;
   opacity: 1;
 }
 
-.card, .card_container a.boton {
+.card,
+.card_container a.boton {
   width: 100%;
   padding: 10px;
   font-size: 0.88rem;
   align-self: flex-end;
 }
 
-.porfolio_container, .card_title {
+.porfolio_container,
+.card_title {
   font-size: 22px;
 }
 
-.porfolio_container, .card_title:hover {
+.porfolio_container,
+.card_title:hover {
   color: rgb(0, 255, 60);
 }
 
-.porfolio_container, .card_container {
+.porfolio_container,
+.card_container {
   font-size: 18px;
 }
 
@@ -391,7 +399,8 @@ video {
   background-color: rgba(0, 255, 255, 0.67);
 }
 
-.boton, .boton_porfolio {
+.boton,
+.boton_porfolio {
   border-radius: 5px;
   background-color: rgb(65, 41, 219);
   position: relative;
@@ -487,7 +496,7 @@ form input::placeholder {
 
 .contacto-formula {
   position: relative;
-  top: -30px;
+  top: -18px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -556,7 +565,6 @@ form {
 
 .footer2 {
   position: relative;
-  top: 850px;
 }
 
 .Marketing-online {
@@ -574,15 +582,60 @@ form {
   top: 50px;
 }
 
+/*estilos de pagina error*/
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.error-container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.error-container h1 {
+  color: #d9534f;
+}
+
+.error-container p {
+  margin: 10px 0;
+}
+
+.error-container a {
+  color: #5bc0de;
+  text-decoration: none;
+}
+
+.error-container a:hover {
+  text-decoration: underline;
+}
+
 @media screen {
   /*aqui van las reglas*/
   /*responsive navegador*/
   /*navegador de pagina mis servicios*/
 }
-@media screen and (max-width: 1000px) {
-  .porfo-inicio, .inicio_container, .porfolio_container {
+@media screen and (max-width: 1542px) {
+  .footer2 {
     position: relative;
-    top: 50px;
+    top: 850px;
+  }
+  .ultimotex {
+    position: relative;
+    top: -70px;
+  }
+  .text-content {
+    margin-left: 10;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .porfo-inicio, .porfolio_container {
+    position: relative;
     width: 100%;
     padding: 1rem 4%;
     height: 40%;
@@ -591,13 +644,21 @@ form {
     grid-template-columns: repeat(2, 1fr);
     flex-wrap: wrap;
   }
+  .footer2 {
+    position: relative;
+    top: -10px;
+  }
+  .ultimotex {
+    position: relative;
+    top: -200px;
+  }
 }
 @media screen and (max-width: 768px) {
   .navegacion label {
     display: block;
     color: blueviolet;
   }
-  .navegacion__nav, .navegacion label {
+  .navegacion__nav, label {
     display: none;
   }
   .servic1, .servic2 {
@@ -610,8 +671,11 @@ form {
     height: 100%;
     right: 0;
   }
-  .inicio_container, .fondi-porfoli, .porfo, .porfolio_container {
+  .fondi-porfoli, .porfo, .porfolio_container {
     grid-template-columns: repeat(2, 1);
+  }
+  .inicio_container {
+    grid-template-columns: repeat(1, 1);
   }
 }
 @media screen and (max-width: 768px) {
@@ -628,9 +692,16 @@ form {
     justify-content: start;
     align-items: start;
   }
+  .ultimotex {
+    position: relative;
+    top: -150px;
+  }
+  .portada-sobremi {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 550px) {
-  .porfolio_container, .inicio_container, .porfo, .fondi-porfoli, .pag-inicio {
+  .porfolio_container, .porfo, .fondi-porfoli, .pag-inicio {
     grid-template-columns: repeat(1, 1fr);
   }
   .ultimotex {
@@ -639,7 +710,19 @@ form {
   }
   .footer-altura {
     position: relative;
-    bottom: 300px;
+    top: 50px;
+  }
+  .parrafo-inicio {
+    position: relative;
+    top: 0px;
+  }
+  .inicio_container {
+    width: 100%;
+    padding: 2rem 4%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1 fr);
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 440px) {
@@ -693,11 +776,23 @@ form {
     width: 100%;
     font-size: 10px;
   }
-  .porfolio_container, .inicio_container, .portada, .galeria {
+  .porfolio_container, .portada, .galeria {
     grid-template-columns: repeat(1, 1fr);
   }
   .servic1, .servic2 {
     font-size: 40px;
+  }
+  .ultimotex {
+    position: relative;
+    top: -350px;
+  }
+  .inicio_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1 fr);
+  }
+  .ultimotex {
+    position: relative;
+    top: -200px;
   }
 }
 

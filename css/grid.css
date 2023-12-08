@@ -17,7 +17,7 @@
     
 }
 
-#check_menu, .navegacion , .navbar label{
+#check_menu,  .navbar label{
     display: none;
     
 }
@@ -297,12 +297,18 @@
 
      ;
 
+     
+}
+.navbar ,.nave label i{
+    display: block;
+    color: blueviolet;
+    
 }
 
 
 }
 @media( max-width: 440px){
-    .navbar label{
+    .navbar ,.nave label i{
         display: block;
         color: blueviolet;
         
