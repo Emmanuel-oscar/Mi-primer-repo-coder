@@ -619,6 +619,7 @@ body {
   /*aqui van las reglas*/
   /*responsive navegador*/
   /*navegador de pagina mis servicios*/
+  /*Menu hamburguesa "quiebre"*/
 }
 @media screen and (max-width: 1542px) {
   .footer2 {
@@ -658,8 +659,21 @@ body {
     display: block;
     color: blueviolet;
   }
-  .navegacion__nav, label {
+  .navegacion__nav {
     display: none;
+  }
+  .navegacion #check_menu:checked ~ .navegacion__nav {
+    display: block;
+    background: rgba(137, 43, 226, 0.767);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
   }
   .servic1, .servic2 {
     font-size: 40px;
@@ -679,19 +693,6 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  .navegacion #check_menu:checked ~ .navegacion__nav {
-    display: block;
-    background: rgba(137, 43, 226, 0.767);
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-  }
   .ultimotex {
     position: relative;
     top: -150px;
@@ -726,27 +727,6 @@ body {
   }
 }
 @media screen and (max-width: 440px) {
-  .navbar label {
-    display: block;
-    color: blueviolet;
-  }
-  /*navegacion de mis servicios*/
-  .nave, .navegacion__nav li {
-    display: none;
-  }
-  .navegacion #check_menu:checked ~ .navegacion__nav {
-    display: block;
-    background: rgba(137, 43, 226, 0.767);
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    left: 0;
-    top: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-  }
   /*titulo de pantalla de inicio*/
   .portada-ind {
     font-size: 20px;
